@@ -1,5 +1,8 @@
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import React from "react";
 import toast from "react-hot-toast";
+import Slider from "react-slick";
 import Logo from "../assets/navbar-logo.png";
 import "../styles/NavBar.css";
 
@@ -29,13 +32,33 @@ function NavBar() {
     window.navigator.clipboard.writeText(CA);
     toast.success("Copied to clipboard");
   };
-  
+
   return (
     <nav className="navbar-container">
       <div className="topbar">
-        <h1 onClick={copyToClipboard}>
-          <strong>Contract Address:</strong> {CA}
-        </h1>
+        <Slider
+          dots={false}
+          speed={10000}
+          arrows={false}
+          autoplay={true}
+          infinite={true}
+          cssEase="linear"
+          slidesToShow={1}
+          centerMode={true}
+          slidesToScroll={1}
+          autoplaySpeed={2000}
+          variableWidth={true}
+        >
+          <h1 onClick={copyToClipboard}>
+            <strong>Contract Address:</strong> {CA}
+          </h1>
+          <h1 onClick={copyToClipboard}>
+            <strong>Contract Address:</strong> {CA}
+          </h1>
+          <h1 onClick={copyToClipboard}>
+            <strong>Contract Address:</strong> {CA}
+          </h1>
+        </Slider>
       </div>
       <div className="navbar">
         <div className="left-side">
