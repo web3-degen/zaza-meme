@@ -15,7 +15,7 @@
   line-height: 40px;
 }
 
-.home h1 {
+.main-title {
   font-size: 114px;
   -webkit-text-stroke-width: 4px;
 }
@@ -24,8 +24,16 @@
   width: 50%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .home {
     padding: 5rem 0;
+  }
+
+  .home img {
+    width: 80%;
+  }
+
+  .main-title {
+    font-size: 45px;
   }
 }

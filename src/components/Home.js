@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       <h3>*READ IT CAREFULLY</h3>
-      <h1>Y U NO BUY ?</h1>
+      <h1 className="main-title">Y U NO BUY ?</h1>
       <img src={Banner} alt="Banner" width="20rem" />
     </div>
   );

@@ -62,14 +62,14 @@
   .container {
     flex-direction: row;
   }
-  
+
   .rightSide {
     flex: 50%;
     margin-top: 0;
     padding: 0 6rem;
   }
 
-.leftSide {
-  padding-left: 6rem;
-}
+  .leftSide {
+    padding-left: 6rem;
+  }
 }

@@ -37,11 +37,9 @@ function NavBar() {
     toast.success("Copied to clipboard");
   };
 
-  
-
   return (
     <nav className="navbar-container">
-      <div className="topbar">
+      {/* <div className="topbar">
         <Slider
           dots={false}
           speed={10000}
@@ -65,7 +63,7 @@ function NavBar() {
             <strong>Contract Address:</strong> {CA}
           </h1>
         </Slider>
-      </div>
+      </div> */}
       <div className="navbar">
         <div className="left-side">
           <img src={Logo} alt="Navbar Logo" />

@@ -1,10 +1,10 @@
 .tokenomics {
   width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 20px;
-  justify-content: space-evenly;
-  flex-direction: column-reverse;
 }
 
 .tokenomics ul {
@@ -18,7 +18,7 @@
 }
 
 .logo {
-  width: 100%;
+  width: 30%;
   margin-top: 20px;
 }
 
@@ -26,12 +26,16 @@
   width: 30px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .tokenomics {
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
 
   .logo {
-    width: 30%;
+    width: 70%;
+  }
+
+  .tokenomics ul {
+    font-size: 26px;
   }
 }
