@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
@@ -9,6 +10,7 @@ import HowToBuy from "./components/HowToBuy";
 function App() {
   return (
     <div className="App">
+      <Toaster />
       <NavBar />
       <Home />
       <About />

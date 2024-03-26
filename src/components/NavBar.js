@@ -1,4 +1,5 @@
 import React from "react";
+import toast from "react-hot-toast";
 import Logo from "../assets/navbar-logo.png";
 import "../styles/NavBar.css";
 
@@ -21,13 +22,19 @@ const MENU_ITEMS = [
   },
 ];
 
+const CA = "F8qtcT3qnwQ24CHksuRrSELtm5k9ob8j64xAzj3JjsMs";
+
 function NavBar() {
+  const copyToClipboard = () => {
+    window.navigator.clipboard.writeText(CA);
+    toast.success("Copied to clipboard");
+  };
+  
   return (
     <nav className="navbar-container">
       <div className="topbar">
-        <h1>
-          <strong>Contract Address:</strong>{" "}
-          F8qtcT3qnwQ24CHksuRrSELtm5k9ob8j64xAzj3JjsMs
+        <h1 onClick={copyToClipboard}>
+          <strong>Contract Address:</strong> {CA}
         </h1>
       </div>
       <div className="navbar">
