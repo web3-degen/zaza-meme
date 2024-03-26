@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useId } from "react";
 import "../styles/HowToBuy.css";
 
 const ORDER_ITEMS = [
@@ -23,6 +23,22 @@ const ORDER_ITEMS = [
 ];
 
 function HowToBuy() {
+  const id = useId();
+
+  useEffect(() => {
+    if (!window) return;
+
+    window.Jupiter.init({
+      displayMode: "integrated",
+      integratedTargetId: id,
+      endpoint: "https://api.mainnet-beta.solana.com",
+      formProps: {
+        fixedOutputMint: true,
+        initialOutputMint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      },
+    });
+  }, []);
+
   return (
     <div className="howtobuy">
       <h1>HOW TO BUY ?</h1>
@@ -37,7 +53,9 @@ function HowToBuy() {
           </ol>
           <a className="buy">BUY $YUNO</a>
         </div>
-        <div className="rightSide"></div>
+        <div className="rightSide">
+          <div id={id} />
+        </div>
       </div>
     </div>
   );

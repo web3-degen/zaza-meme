@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   column-gap: 0px;
-  padding: 5rem 0 5rem 0;
+  padding: 5rem 0;
 }
 
 .home h3 {
@@ -22,4 +22,10 @@
 
 .home img {
   width: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .home {
+    padding: 5rem 0;
+  }
 }

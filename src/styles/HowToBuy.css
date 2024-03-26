@@ -1,10 +1,10 @@
 .howtobuy {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .howtobuy h1 {
@@ -13,16 +13,16 @@
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 10px;
 }
 
 .leftSide {
   flex: 50%;
   display: flex;
-  flex-direction: column;
+  padding: 0 1rem;
   align-items: center;
-  padding-left: 6rem;
+  flex-direction: column;
 }
 
 .leftSide ol {
@@ -43,6 +43,33 @@
 }
 
 .rightSide {
-  flex: 50%;
-  padding-right: 6rem;
+  flex: 100%;
+  padding: 0 1rem;
+  max-width: 30rem;
+  margin-top: 5rem;
+}
+
+.rightSide > div {
+  padding: 1rem;
+  color: white;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: rgb(40, 40, 48);
+  -webkit-text-stroke-width: 0px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+  
+  .rightSide {
+    flex: 50%;
+    margin-top: 0;
+    padding: 0 6rem;
+  }
+
+.leftSide {
+  padding-left: 6rem;
+}
 }

@@ -37,6 +37,8 @@ function NavBar() {
     toast.success("Copied to clipboard");
   };
 
+  
+
   return (
     <nav className="navbar-container">
       <div className="topbar">
