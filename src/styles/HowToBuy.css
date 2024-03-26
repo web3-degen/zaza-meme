@@ -1,0 +1,48 @@
+.howtobuy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.howtobuy h1 {
+  font-size: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.leftSide {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 6rem;
+}
+
+.leftSide ol {
+  font-size: 30px;
+}
+
+.leftSide li {
+  margin-bottom: 15px;
+}
+
+.buy {
+  font-size: 40px;
+}
+
+.buy:hover {
+  font-size: 45px;
+  color: #3c6185;
+}
+
+.rightSide {
+  flex: 50%;
+  padding-right: 6rem;
+}

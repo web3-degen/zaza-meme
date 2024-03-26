@@ -1,0 +1,25 @@
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 0px;
+  padding: 5rem 0 5rem 0;
+}
+
+.home h3 {
+  color: #3c6185;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.home h1 {
+  font-size: 114px;
+  -webkit-text-stroke-width: 4px;
+}
+
+.home img {
+  width: 50%;
+}
