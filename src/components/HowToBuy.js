@@ -33,7 +33,10 @@ function HowToBuy() {
       integratedTargetId: id,
       endpoint: "https://api.mainnet-beta.solana.com",
       formProps: {
+        fixedInputMint: false,
         fixedOutputMint: true,
+        swapMode: "ExactIn",
+        initialInputMint: "So11111111111111111111111111111111111111112",
         initialOutputMint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
       },
     });
