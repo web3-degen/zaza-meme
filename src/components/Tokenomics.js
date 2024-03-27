@@ -25,7 +25,7 @@ const TOKENOMICS_ITEMS = [
 
 function Tokenomics() {
   return (
-    <div className="tokenomics">
+    <div id="tokenomics" className="tokenomics">
       <ul>
         {TOKENOMICS_ITEMS.map(({ title, description, icon }) => (
           <li>

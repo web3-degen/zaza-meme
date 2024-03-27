@@ -3,15 +3,15 @@ import "../styles/HowToBuy.css";
 
 const ORDER_ITEMS = [
   {
-    title: "setup a wallet",
+    title: "SETUP A WALLET",
     description: "Download phantom or wallet of choice on your device",
   },
   {
-    title: "Get some $SOL",
+    title: "GET SOME $SOL",
     description: "Buy $SOL and send to your wallet of choice",
   },
   {
-    title: "Go to Jupiter",
+    title: "GO TO JUPITER",
     description:
       "Go to jup.ag and connect your wallet, paste the $YUNO address and exchange $YUNO for $SOL",
   },
@@ -43,7 +43,7 @@ function HowToBuy() {
   }, []);
 
   return (
-    <div className="howtobuy">
+    <div id="howtobuy" className="howtobuy">
       <h1>HOW TO BUY ?</h1>
       <div className="container">
         <div className="leftSide">

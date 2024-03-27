@@ -19,11 +19,11 @@ const MENU_ITEMS = [
   },
   {
     title: "TOKENOMICS",
-    url: "/#Tokenomics",
+    url: "/#tokenomics",
   },
   {
     title: "HOW TO BUY",
-    url: "/#HowToBuy",
+    url: "/#howtobuy",
   },
 ];
 
@@ -70,7 +70,7 @@ function NavBar() {
         </div>
         <div className="right-side">
           {MENU_ITEMS.map(({ title, url }) => (
-            <a className="nav-item" href={url} target="blank">
+            <a className="nav-item" href={url}>
               {title}
             </a>
           ))}
@@ -85,7 +85,7 @@ function NavBar() {
                 <FaTimes size={32} />
               </div>
               {MENU_ITEMS.map(({ title, url }) => (
-                <a className="nav-item" href={url} target="blank">
+                <a className="nav-item" href={url}>
                   {title}
                 </a>
               ))}

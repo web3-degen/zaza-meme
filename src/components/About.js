@@ -4,7 +4,7 @@ import AboutLogo from "../assets/about-logo.png";
 
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <img src={AboutLogo} alt="About Logo" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum

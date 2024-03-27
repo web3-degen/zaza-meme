@@ -10,7 +10,7 @@ import HowToBuy from "./components/HowToBuy";
 function App() {
   return (
     <div className="App">
-      <Toaster />
+      {/* <Toaster /> */}
       <NavBar />
       <Home />
       <About />

@@ -15,18 +15,18 @@ const SOCIAL_ITEMS = [
     link: "https://twitter.com/yunoOnSolana",
     icon: Twitter,
   },
-  {
-    link: "",
-    icon: CoinMarketCap,
-  },
-  {
-    link: "",
-    icon: Coingecko,
-  },
-  {
-    link: "",
-    icon: Dextools,
-  },
+  // {
+  //   link: "",
+  //   icon: CoinMarketCap,
+  // },
+  // {
+  //   link: "",
+  //   icon: Coingecko,
+  // },
+  // {
+  //   link: "",
+  //   icon: Dextools,
+  // },
 ];
 
 function Footer() {

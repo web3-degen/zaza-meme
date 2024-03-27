@@ -51,6 +51,11 @@
   letter-spacing: 2px;
 }
 
+.nav-item:hover {
+  font-size: 1.8rem;
+  color: #3c6185;
+}
+
 .topbar h1 {
   font-size: 20px;
   margin-left: 5rem;
