@@ -13,12 +13,12 @@ const TOKENOMICS_ITEMS = [
   },
   {
     title: "Burned LP",
-    description: "7,500,000,000",
+    description: "5,000,000,000",
     icon: FireIcon,
   },
   {
     title: "Airdrop",
-    description: "2,500,000,000",
+    description: "5,000,000,000",
     icon: AirdropIcon,
   },
 ];

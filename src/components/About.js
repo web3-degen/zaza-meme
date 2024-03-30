@@ -7,10 +7,13 @@ function About() {
     <div id="about" className="about">
       <img src={AboutLogo} alt="About Logo" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum
-        vestibulum felis, quis dapibus justo ultricies at. Nulla facilisi.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia Curae.
+        Y U NO RICH? <br /> <br /> $YUNO ain't your mama's stock market. It's
+        the memecoin where the only thing thicker than your FOMO is your
+        potential stack of $YUNO. We're talkin' memes so legendary, your
+        grandkids will be asking "Y U NO BUY $YUNO?"
+        <br /> <br /> Disclaimer: $YUNO may or may not be real money. It may or
+        may not make your dreams come true. But hey, at least you'll have a
+        hilarious story to tell your therapist.
       </p>
     </div>
   );
