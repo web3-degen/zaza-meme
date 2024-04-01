@@ -12,7 +12,7 @@ const SOCIAL_ITEMS = [
     icon: Telegram,
   },
   {
-    link: "https://twitter.com/YUNOONSOLX",
+    link: "https://twitter.com/yuno_on_sol",
     icon: Twitter,
   },
   // {
