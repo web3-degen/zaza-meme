@@ -8,7 +8,7 @@ import Dextools from "../assets/dextools.png";
 
 const SOCIAL_ITEMS = [
   {
-    link: "https://t.me/yunoonsol",
+    link: "https://t.me/yuno_on_sol",
     icon: Telegram,
   },
   {
