@@ -3,7 +3,8 @@ import "../styles/Tokenomics.css";
 import TokenomicsLogo from "../assets/tokenomics-logo.png";
 import FireIcon from "../assets/fire.png";
 import AllIcon from "../assets/all.png";
-import AirdropIcon from "../assets/airdrop.png";
+import PreSaleIcon from "../assets/presale.png";
+import CexIcon from "../assets/cexlisting.png";
 
 const TOKENOMICS_ITEMS = [
   {
@@ -17,9 +18,14 @@ const TOKENOMICS_ITEMS = [
     icon: FireIcon,
   },
   {
-    title: "Airdrop",
-    description: "5,000,000,000",
-    icon: AirdropIcon,
+    title: "Pre-Sale",
+    description: "3,000,000,000",
+    icon: PreSaleIcon,
+  },
+  {
+    title: "CEX Listings",
+    description: "2,000,000,000",
+    icon: CexIcon,
   },
 ];
 
