@@ -9,22 +9,22 @@ import CexIcon from "../assets/cexlisting.png";
 const TOKENOMICS_ITEMS = [
   {
     title: "Supply",
-    description: "10,000,000,000",
+    description: "1,000,000,000",
     icon: AllIcon,
   },
   {
-    title: "Burned LP",
-    description: "5,000,000,000",
-    icon: FireIcon,
-  },
-  {
     title: "Pre-Sale",
-    description: "3,000,000,000",
+    description: "500,000,000",
     icon: PreSaleIcon,
   },
   {
+    title: "Burned LP",
+    description: "300,000,000",
+    icon: FireIcon,
+  },
+  {
     title: "CEX Listings",
-    description: "2,000,000,000",
+    description: "200,000,000",
     icon: CexIcon,
   },
 ];
