@@ -14,17 +14,17 @@ const TOKENOMICS_ITEMS = [
   },
   {
     title: "Pre-Sale",
-    description: "500,000,000",
+    description: "550,000,000",
     icon: PreSaleIcon,
   },
   {
     title: "Burned LP",
-    description: "300,000,000",
+    description: "350,000,000",
     icon: FireIcon,
   },
   {
     title: "CEX Listings",
-    description: "200,000,000",
+    description: "100,000,000",
     icon: CexIcon,
   },
 ];
