@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+.topbar-br {
+  display: none;
+}
+
 .navbar {
   flex: 50%;
   height: 4rem;
@@ -102,5 +106,15 @@
 
   .burger {
     display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topbar-br {
+    display: block;
+  }
+
+  .topbar h1 {
+    font-size: 10px;
   }
 }
