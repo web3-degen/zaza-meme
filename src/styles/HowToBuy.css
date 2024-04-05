@@ -35,6 +35,10 @@
 
 .buy {
   font-size: 40px;
+  text-decoration: none;
+  color: white;
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: black;
 }
 
 .buy:hover {
