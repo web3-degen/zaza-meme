@@ -4,7 +4,9 @@ import Coingecko from "../assets/coingecko.png";
 import CoinMarketCap from "../assets/coinmarketcap.png";
 import Twitter from "../assets/twitter.png";
 import Telegram from "../assets/telegram.png";
-import Dextools from "../assets/dextools.png";
+import Dexscreener from "../assets/dexscreener.png";
+import Pinksale from "../assets/pinksale.png";
+import Dexview from "../assets/dexview.png";
 
 const SOCIAL_ITEMS = [
   {
@@ -15,6 +17,18 @@ const SOCIAL_ITEMS = [
     link: "https://twitter.com/solana_yuno",
     icon: Twitter,
   },
+  {
+    link: "https://www.pinksale.finance/solana/launchpad/AV1U12fwCQva5QMD83yt5VMhLXXJyFPgVehJj3N9Nsk",
+    icon: Pinksale,
+  },
+  {
+    link: "https://www.dexview.com/solana/7MvzAc4P8rFKdT5hszKhX1jyxrBfY1iZRyKhggbZa5tU",
+    icon: Dexview,
+  },
+  {
+    link: "https://dexscreener.com/solana/7MvzAc4P8rFKdT5hszKhX1jyxrBfY1iZRyKhggbZa5tU",
+    icon: Dexscreener,
+  },
   // {
   //   link: "",
   //   icon: CoinMarketCap,
@@ -22,10 +36,6 @@ const SOCIAL_ITEMS = [
   // {
   //   link: "",
   //   icon: Coingecko,
-  // },
-  // {
-  //   link: "",
-  //   icon: Dextools,
   // },
 ];
 
