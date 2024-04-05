@@ -25,10 +25,6 @@ const SOCIAL_ITEMS = [
     link: "https://www.dexview.com/solana/7MvzAc4P8rFKdT5hszKhX1jyxrBfY1iZRyKhggbZa5tU",
     icon: Dexview,
   },
-  {
-    link: "https://dexscreener.com/solana/7MvzAc4P8rFKdT5hszKhX1jyxrBfY1iZRyKhggbZa5tU",
-    icon: Dexscreener,
-  },
   // {
   //   link: "",
   //   icon: CoinMarketCap,
