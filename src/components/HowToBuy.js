@@ -57,6 +57,7 @@ function HowToBuy() {
           <a
             href="https://www.pinksale.finance/solana/launchpad/AV1U12fwCQva5QMD83yt5VMhLXXJyFPgVehJj3N9Nsk"
             className="buy"
+            target="blank"
           >
             BUY PRE-SALE
           </a>
