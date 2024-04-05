@@ -54,7 +54,12 @@ function HowToBuy() {
               </li>
             ))}
           </ol>
-          <a className="buy">BUY $YUNO</a>
+          <a
+            href="https://www.pinksale.finance/solana/launchpad/AV1U12fwCQva5QMD83yt5VMhLXXJyFPgVehJj3N9Nsk"
+            className="buy"
+          >
+            BUY PRE-SALE
+          </a>
         </div>
         <div className="rightSide">
           <div id={id} />
