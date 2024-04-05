@@ -4,7 +4,6 @@ import Coingecko from "../assets/coingecko.png";
 import CoinMarketCap from "../assets/coinmarketcap.png";
 import Twitter from "../assets/twitter.png";
 import Telegram from "../assets/telegram.png";
-import Dexscreener from "../assets/dexscreener.png";
 import Pinksale from "../assets/pinksale.png";
 import Dexview from "../assets/dexview.png";
 
