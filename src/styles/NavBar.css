@@ -1,120 +1,138 @@
-.navbar-container {
+/* .navbar {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
 }
 
-.topbar {
-  background-color: white;
-  flex: 50%;
-  height: 2rem;
-  cursor: pointer;
+.navbar-logo .main-logo {
+  height: 60px;
+  width: auto;
 }
 
-.topbar-br {
-  display: none;
+.navbar-social {
+  display: flex;
+  gap: 15px;
+}
+
+.social-logo {
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.social-logo:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .navbar-logo .main-logo {
+    height: 45px;
+  }
+
+  .navbar-social {
+    gap: 10px;
+  }
+
+  .social-logo {
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-logo .main-logo {
+    height: 35px;
+  }
+
+  .social-logo {
+    height: 40px;
+  }
+} */
+
+.container {
+  width: 100%;
+  padding: 10px 0 0 0;
 }
 
 .navbar {
-  flex: 50%;
-  height: 4rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
 }
 
-.left-side {
-  flex: 30%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.left-side img {
-  width: 300px;
+.left-side .main-logo {
+  height: 60px;
+  width: auto;
 }
 
 .right-side {
-  flex: 70%;
-  display: none;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-end;
-  padding-right: 6rem;
-}
-
-.nav-item {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-  text-align: center;
-  margin-right: 20px;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
-  letter-spacing: 2px;
-}
-
-.nav-item:hover {
-  font-size: 1.8rem;
-  color: #3c6185;
-}
-
-.topbar h1 {
-  font-size: 20px;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  text-align: center;
-  -webkit-text-stroke-width: 1px;
-  color: #3c6185;
-}
-
-.burger {
-  flex: 70%;
   display: flex;
-  position: relative;
+  gap: 15px; /* Space between social logos */
 }
 
-.menu {
-  inset: 0;
-  display: flex;
-  padding: 4rem;
-  position: fixed;
-  background: #3c6185;
-  flex-direction: column;
+.social-logo {
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease;
 }
 
-.close-button {
-  top: 1rem;
-  right: 1rem;
-  position: absolute;
+.social-logo:hover {
+  transform: scale(1.1);
 }
 
-.menu a {
-  padding: 1rem;
-  margin-right: 0;
-}
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 20px; /* Add margin on top for mobile */
+  }
 
-@media screen and (min-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
   .left-side {
-    padding-left: 6rem;
+    margin-bottom: 20px; /* Space between main logo and social logos on mobile */
+  }
+
+  .left-side .main-logo {
+    height: 45px;
   }
 
   .right-side {
-    display: flex;
+    gap: 20px; /* Adjust space between social logos on mobile */
   }
 
-  .burger {
-    display: none;
+  .social-logo {
+    height: 35px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .topbar-br {
-    display: block;
+@media screen and (max-width: 480px) {
+  .left-side .main-logo {
+    height: 40px;
   }
 
-  .topbar h1 {
-    font-size: 10px;
+  .right-side {
+    gap: 10px; /* Further reduce space on smaller screens */
+  }
+
+  .social-logo {
+    height: 40px;
   }
 }

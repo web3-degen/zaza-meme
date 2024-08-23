@@ -1,73 +1,47 @@
-import React, { useState } from "react";
-import toast from "react-hot-toast";
+import React from "react";
 import Logo from "../assets/navbar-logo.png";
 import "../styles/NavBar.css";
-import { FaBars, FaTimes } from "react-icons/fa";
+import Twitter from "../assets/twitter.png";
+import Telegram from "../assets/telegram.png";
+import Dexscreener from "../assets/dexscreener.png";
+import Pumpfun from "../assets/pumpfun.png";
 
-const MENU_ITEMS = [
+const SOCIAL_ITEMS = [
   {
-    title: "HOME",
-    url: "/#home",
+    link: "https://t.me/yuno_on_sol",
+    icon: Telegram,
+    alt: "Telegram",
   },
   {
-    title: "ABOUT",
-    url: "/#about",
+    link: "https://twitter.com/solana_yuno",
+    icon: Twitter,
+    alt: "Twitter",
   },
   {
-    title: "TOKENOMICS",
-    url: "/#tokenomics",
+    link: "",
+    icon: Pumpfun,
+    alt: "Pumpfun",
   },
   {
-    title: "HOW TO BUY",
-    url: "/#howtobuy",
+    link: "",
+    icon: Dexscreener,
+    alt: "Dexscreener",
   },
 ];
 
-const CA = "7MvzAc4P8rFKdT5hszKhX1jyxrBfY1iZRyKhggbZa5tU";
-
 function NavBar() {
-  const [isOpen, setOpen] = useState(false);
-
-  const copyToClipboard = () => {
-    window.navigator.clipboard.writeText(CA);
-    toast.success("Copied to clipboard");
-  };
-
   return (
-    <nav className="navbar-container">
-      <div className="topbar">
-        <h1 className="topbar-ca" onClick={copyToClipboard}>
-          <strong>CA:</strong> <br className="topbar-br" />{" "}
-          <br className="topbar-br" /> {CA}
-        </h1>
-      </div>
+    <nav className="container">
       <div className="navbar">
         <div className="left-side">
-          <img src={Logo} alt="Navbar Logo" />
+          <img src={Logo} alt="Navbar Logo" className="main-logo" />
         </div>
         <div className="right-side">
-          {MENU_ITEMS.map(({ title, url }) => (
-            <a className="nav-item" href={url}>
-              {title}
+          {SOCIAL_ITEMS.map(({ link, icon, alt }) => (
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <img className="social-logo" src={icon} alt={alt} />
             </a>
           ))}
-        </div>
-        <div className="burger">
-          <div onClick={() => setOpen(true)}>
-            <FaBars size={32} />
-          </div>
-          {isOpen && (
-            <div class="menu">
-              <div className="close-button" onClick={() => setOpen(false)}>
-                <FaTimes size={32} />
-              </div>
-              {MENU_ITEMS.map(({ title, url }) => (
-                <a className="nav-item" href={url}>
-                  {title}
-                </a>
-              ))}
-            </div>
-          )}
         </div>
       </div>
     </nav>
