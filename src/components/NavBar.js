@@ -8,22 +8,22 @@ import Pumpfun from "../assets/pumpfun.png";
 
 const SOCIAL_ITEMS = [
   {
-    link: "https://t.me/yuno_on_sol",
+    link: "https://t.me/charlie_portal",
     icon: Telegram,
     alt: "Telegram",
   },
   {
-    link: "https://twitter.com/solana_yuno",
+    link: "https://x.com/Charlies_BDay",
     icon: Twitter,
     alt: "Twitter",
   },
   {
-    link: "",
+    link: "https://pump.fun/",
     icon: Pumpfun,
     alt: "Pumpfun",
   },
   {
-    link: "",
+    link: "https://dexscreener.com/solana/",
     icon: Dexscreener,
     alt: "Dexscreener",
   },
