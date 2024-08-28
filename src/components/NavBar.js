@@ -8,7 +8,7 @@ import Pumpfun from "../assets/pumpfun.png";
 
 const SOCIAL_ITEMS = [
   {
-    link: "https://t.me/charlie_portal",
+    link: "https://t.me/charlie_sol_portal",
     icon: Telegram,
     alt: "Telegram",
   },
