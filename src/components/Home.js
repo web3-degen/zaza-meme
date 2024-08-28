@@ -6,7 +6,7 @@ function Home() {
   return (
     <div id="home" className="home">
       <h1>Happy Birthday, Charlie.</h1>
-      <h2>CA: SOON</h2>
+      <h2>CA: 7Y3i2c99dhqu7fZyhsdiKCcjrGQ2AHvejCvrzC6kpump</h2>
       <video className="logo-video" autoPlay loop muted playsInline>
         <source src={AnimatedLogo} type="video/mp4" />
       </video>

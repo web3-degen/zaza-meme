@@ -18,7 +18,7 @@ const SOCIAL_ITEMS = [
     alt: "Twitter",
   },
   {
-    link: "https://pump.fun/",
+    link: "https://pump.fun/7Y3i2c99dhqu7fZyhsdiKCcjrGQ2AHvejCvrzC6kpump",
     icon: Pumpfun,
     alt: "Pumpfun",
   },
